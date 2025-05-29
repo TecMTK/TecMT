@@ -1,0 +1,129 @@
+/* Reset e base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  background-image: url(fundo.png); /* 🔥 Troque pela sua imagem */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* Header */
+.header {
+  background: rgba(31, 31, 31, 0.9);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header h1 {
+  color: #7b0f0f;
+}
+
+.header ul { 
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.header a:hover {
+  color: #7b0f0f;
+}
+
+/* Hero */
+.hero {
+  background-color: rgba(0, 0, 0, 0.7); /* 🔥 Deixa a área hero com fundo escuro transparente */
+  padding: 100px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.hero h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  background-color: #7b0f0f;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1em;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+  transition: background 0.3s;
+}
+
+.hero button:hover {
+  background-color: #7b0f0f;
+}
+
+/* Serviços */
+.servicos {
+  padding: 60px 20px;
+  background-color: rgba(42, 42, 42, 0.9);
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.servicos h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+.servico {
+  margin-bottom: 30px;
+}
+
+.servico h3 {
+  color: #7b0f0f;
+  font-size: 1.8em;
+}
+
+/* Sobre e Contato */
+.sobre, .contato {
+  padding: 60px 20px;
+  background-color: rgba(31, 31, 31, 0.9);
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.sobre h2, .contato h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(17, 17, 17, 0.9);
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #888;
+}
